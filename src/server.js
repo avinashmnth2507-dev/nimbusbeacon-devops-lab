@@ -19,6 +19,10 @@ app.get("/health", (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`NimbusBeacon running on port ${port}`);
-});
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`NimbusBeacon running on port ${port}`);
+  });
+}
+
+module.exports = app;
