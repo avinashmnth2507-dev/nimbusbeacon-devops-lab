@@ -1,0 +1,24 @@
+{
+  "name": "nimbusbeacon-devops-lab",
+  "version": "1.0.0",
+  "description": "A simple DevOps health check app using Node.js, Docker, and GitHub Actions.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinashmnth2507-dev/nimbusbeacon-devops-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/avinashmnth2507-dev/nimbusbeacon-devops-lab/issues"
+  },
+  "homepage": "https://github.com/avinashmnth2507-dev/nimbusbeacon-devops-lab#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
