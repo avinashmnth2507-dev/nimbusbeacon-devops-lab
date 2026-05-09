@@ -1,0 +1,6 @@
+services:
+  nimbusbeacon:
+    build: .
+    container_name: nimbusbeacon-app
+    ports:
+      - "3000:3000"
